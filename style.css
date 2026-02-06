@@ -15,3 +15,32 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
 }
+
+.section-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: #555;
+  font-size: 16px;
+  margin: 0 20px;
+}
+
+#lists {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#para2 {
+  background-color: white;
+  padding: 30px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
