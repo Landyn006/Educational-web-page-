@@ -1,3 +1,86 @@
+/* =========================
+   Default Desktop Styles
+========================= */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: white;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+
+section {
+  padding: 15px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* =========================
+   Media Query for Small Screens
+   (Tablets & Phones)
+========================= */
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  header, footer {
+    padding: 15px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .flex-container {
+    flex-direction: column;   /* Stack sections vertically */
+    gap: 10px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+}
+
+
+
+
 body {
   background-color: lightblue;
 }
