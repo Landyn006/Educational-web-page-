@@ -19,10 +19,6 @@ main {
   padding: 20px;
 }
 
-.flex-container {
-  display: flex;
-  gap: 20px;
-}
 
 section {
   padding: 15px;
@@ -122,8 +118,3 @@ p {
   padding: 30px;
 }
 
-.flex-container {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-}
